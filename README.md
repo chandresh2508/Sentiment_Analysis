@@ -123,11 +123,15 @@ Power BI Desktop
 Git installed
 
 Steps
+
 Clone the repository:
 
 Bash
 
+    https://github.com/chandresh2508/Sentiment_Analysis
+
 git clone 
+
 Install dependencies:
 
 Bash
