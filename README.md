@@ -25,25 +25,17 @@ Warehousing: Loading data into Azure SQL Database.
 
 Visualization: Importing SQL data into Power BI for reporting.
 
-📂 Repository Structure
-Plaintext
+    Repository Structure
 
-Sentiment_Analysis/
-
-│
-
-├── sentimentanalysis.ipynb     # Main Jupyter Notebook (Preprocessing + Modeling)
-
-├── data/
-
-│   └── sentiment.csv           # Processed dataset ready for upload
-
-├── README.md                   # Project documentation
-
-└── assets/                     # Visual assets and screenshots
+    Sentiment_Analysis/│
+    ├── sentimentanalysis.ipynb     # Main Jupyter Notebook (Preprocessing + Modeling)
+    ├── data/
+    │   └── sentiment.csv           # Processed dataset ready for upload
+    ├── README.md                   # Project documentation
+    └── assets/                     # Visual assets and screenshots
 
 
-Component,Technology
+    Component,   Technology
 
     Programming,    "Python (NLTK, TextBlob, Pandas)"
     Cloud Storage,    Azure Blob Storage
@@ -92,15 +84,15 @@ Provisioned a SQL Database instance.
 
 Executed the following schema creation script:
 
-SQL
+    SQL
 
-CREATE TABLE sentiment_table (
+    CREATE TABLE sentiment_table (
     id INT IDENTITY(1,1),
     text NVARCHAR(MAX),
     text_clean NVARCHAR(MAX),
     sentiment_label NVARCHAR(50),
     sentiment_score FLOAT
-);
+    );
 
 5️⃣ Power BI Visualization
 Connected Power BI to the Azure SQL Database to generate insights:
@@ -140,12 +132,13 @@ Install dependencies:
 
 Bash
 
-pip install pandas textblob nltk azure-storage-blob
+    pip install pandas textblob nltk azure-storage-blob
+
 Run the Notebook:
 
 Bash
 
-jupyter notebook sentimentanalysis.ipynb
+    jupyter notebook sentimentanalysis.ipynb
 
 
 
