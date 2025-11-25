@@ -45,12 +45,12 @@ Sentiment_Analysis/
 
 Component,Technology
 
-Programming,    "Python (NLTK, TextBlob, Pandas)"
-Cloud Storage,    Azure Blob Storage
-Data Pipeline,    Azure Data Factory (ADF)
-Database,    Azure SQL Database
-Visualization,    Power BI
-Version Control,    GitHub
+    Programming,    "Python (NLTK, TextBlob, Pandas)"
+    Cloud Storage,    Azure Blob Storage
+    Data Pipeline,    Azure Data Factory (ADF)
+    Database,    Azure SQL Database
+    Visualization,    Power BI
+    Version Control,    GitHub
 
 Step-by-Step Workflow
 
