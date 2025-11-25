@@ -1,12 +1,16 @@
 Sentiment Analysis Project
+
 End-to-End Text Processing Using Azure, Python & Power BI
+
 Authors:
+
 
 Chandresh Patel (200595392)
 
 Nancy Jangwal (200591978)
 
 📌 Project Overview
+
 This project performs end-to-end sentiment analysis on text data collected from multiple online sources. It integrates Python scripts, Azure Cloud services, and Power BI to create a comprehensive machine-learning and data engineering workflow — spanning from raw data preprocessing to final dashboard visualization.
 
 The core workflow includes:
