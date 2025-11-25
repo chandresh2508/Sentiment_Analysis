@@ -29,11 +29,17 @@ Visualization: Importing SQL data into Power BI for reporting.
 Plaintext
 
 Sentiment_Analysis/
+
 │
+
 ├── sentimentanalysis.ipynb     # Main Jupyter Notebook (Preprocessing + Modeling)
+
 ├── data/
+
 │   └── sentiment.csv           # Processed dataset ready for upload
+
 ├── README.md                   # Project documentation
+
 └── assets/                     # Visual assets and screenshots
 
 
