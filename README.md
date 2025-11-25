@@ -44,15 +44,18 @@ Sentiment_Analysis/
 
 
 Component,Technology
-Programming,"Python (NLTK, TextBlob, Pandas)"
-Cloud Storage,Azure Blob Storage
-Data Pipeline,Azure Data Factory (ADF)
-Database,Azure SQL Database
-Visualization,Power BI
-Version Control,GitHub
+
+Programming,    "Python (NLTK, TextBlob, Pandas)"
+Cloud Storage,    Azure Blob Storage
+Data Pipeline,    Azure Data Factory (ADF)
+Database,    Azure SQL Database
+Visualization,    Power BI
+Version Control,    GitHub
 
 Step-by-Step Workflow
+
 1️⃣ Data Preprocessing (Python Notebook)
+
 Performed within the Jupyter Notebook (sentimentanalysis.ipynb):
 
 Load Data: Ingest raw text data.
@@ -64,6 +67,7 @@ Scoring: Apply sentiment analysis using TextBlob to generate polarity scores.
 Export: Create the final structured sentiment.csv.
 
 2️⃣ Azure Blob Storage Upload
+
 Created a Storage Account and a specific Container.
 
 Uploaded the cleaned sentiment.csv file.
@@ -71,6 +75,7 @@ Uploaded the cleaned sentiment.csv file.
 Generated a Blob SAS URL for secure access within the pipeline.
 
 3️⃣ Azure Data Factory (ADF) Pipeline
+
 We constructed a pipeline to automate the data flow:
 
 Source: Azure Blob Storage (linked via SAS).
@@ -82,6 +87,7 @@ Activity: Copy Data Activity to map CSV columns to SQL columns.
 Outcome: The flat CSV data is successfully transformed and loaded into a relational database.
 
 4️⃣ Azure SQL Database
+
 Provisioned a SQL Database instance.
 
 Executed the following schema creation script:
@@ -114,6 +120,7 @@ The majority of the analyzed articles displayed Positive sentiment.
 Text cleaning significantly improved the accuracy of the sentiment scoring algorithm.
 
 🚀 How to Run This Project
+
 Prerequisites
 Python 3.9+
 
